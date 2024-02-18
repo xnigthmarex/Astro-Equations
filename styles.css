@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+}
+
+
+  button {
+    padding: 10px 20px;
+    background-color: #237c26;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 5px;
+    font-size: large;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+
+  }
+  
+  .button-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto; 
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    border-radius: 10px;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+input{
+    font-size: large;
+    padding: 8px;
+    margin-bottom: 10px;
+
+}
+label{
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.modal-container-user{
+   
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.result{
+    font-size: 20px;
+}
+footer{
+  font-size: larger;
+  text-align: center;
+  color: white;  
+}

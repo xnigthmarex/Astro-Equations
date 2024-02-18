@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Astro Equations</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+  <div class="tabs button-container" >
+    <button class="tablinks" onclick="openModal('calculate_gravitational_force')">Gravitational Force</button>
+  <button class="tablinks" onclick="openModal('intensity_ratio')">Intensity Ratio</button>
+  <button class="tablinks" onclick="openModal('small_angle')">Small Angle</button>
+  <button class="tablinks" onclick="openModal('circular_velocity')">Circular Velocity</button>
+  <button class="tablinks" onclick="openModal( 'resolving_power')">Resolving Power</button>
+  <button class="tablinks" onclick="openModal('compare_LGP')">Compare LGP</button>
+  <button class="tablinks" onclick="openModal('magnification')">Magnification</button>
+  <button class="tablinks" onclick="openModal( 'wien_law')">Wien's Law</button>
+  <button class="tablinks" onclick="openModal( 'stefan_boltzmann_law')">Stefan-Boltzmann Law</button>
+  <button class="tablinks" onclick="openModal('stefan_boltzmann_law_luminosity')">Stefan-Boltzmann Law Luminosity</button>
+  <button class="tablinks" onclick="openModal( 'redshift')">Redshift</button>
+  <button class="tablinks" onclick="openModal('doppler_formula')">Doppler Formula</button>
+  <button class="tablinks" onclick="openModal('relativistic_doppler_shift')">Relativistic Doppler Shift</button>
+  <button class="tablinks" onclick="openModal( 'hubble_law')">Hubble's Law</button>
+  <button class="tablinks" onclick="openModal( 'fusion_energy')">Fusion Energy</button>
+  <button class="tablinks" onclick="openModal( 'parallax')">Parallax</button>
+  <button class="tablinks" onclick="openModal( 'f_ratio')">F Ratio</button>
+  <button class="tablinks" onclick="openModal( 'distance_modulus')">Distance Modulus</button>
+  <button class="tablinks" onclick="openModal( 'orbit_eccentricity')">Orbit Eccentricity</button>
+  <button class="tablinks" onclick="openModal( 'orbit_aphelion')">Orbit Aphelion</button>
+  <button class="tablinks" onclick="openModal( 'orbit_perihelion')">Orbit Perihelion</button>
+  <button class="tablinks" onclick="openModal( 'kepler_law')">Kepler's Law</button>
+  <button class="tablinks" onclick="openModal( 'mass_luminosity')">Mass-Luminosity</button>
+  <button class="tablinks" onclick="openModal( 'stellar_lifetime')">Stellar Lifetime</button>
+  <button class="tablinks" onclick="openModal( 'schwarzschild_radius')">Schwarzschild Radius</button>
+  <button class="tablinks" onclick="openModal('universal_gravitation')">Universal Gravitation</button>
+  <button class="tablinks" onclick="openModal('inverse_squares')">Inverse Squares</button>
+  <button class="tablinks" onclick="openModal( 'vacuum_frequency')">Vacuum Frequency</button>
+  <button class="tablinks" onclick="openModal( 'hubble_time')">Hubble Time</button>
+  </div>
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <div id="modal-content-placeholder"></div>
+    </div>
+  </div>
+  
+  
+    <footer>
+        <p>Created/Hosted by Aryan Singh</p>
+    </footer>
+    
+  <script src="script.js"></script>
+  <script src="sw.js"></script>
+</body>
+</html>
